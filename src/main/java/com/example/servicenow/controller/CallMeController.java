@@ -41,12 +41,26 @@ public class CallMeController {
         private String name;
         private String phone;
         // Getters and setters
+        public String getName() {
+            return name;
+        }
+
+        public String getPhone() {
+            return phone;
+        }
     }
 
     static class ContactRequest {
         private String email;
         private String message;
         // Getters and setters
+        public String getEmail() {
+            return email;
+        }
+    
+        public String getMessage() {
+            return message;
+        }
     }
 
     static class Response {
